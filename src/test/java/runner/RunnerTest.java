@@ -5,10 +5,10 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-        features = "src/test/java/features/IngresoParametros.feature" ,
+        features = "src/test/java/features/Sprint12_Escenarios.feature" ,
         glue = {"stepdefs","base","ScreenShots"},
         monochrome = true,
-        format = {"json:target/cucumber-json-report.json"}
-)
+        format = {"json:target/cucumber-json-report.json"},
+        tags = {"@wip"})
 public class RunnerTest extends AbstractTestNGCucumberTests {
 }

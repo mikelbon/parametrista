@@ -33,7 +33,7 @@ public class ScreenShots extends SetUp{
             AndroidDriver<MobileElement> driver = getDriver();
             String destDir = "screenshots";
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy__hh_mm_ssaa");
+            SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy_hh_mm_ssaa");
             new File(destDir).mkdirs();
             String destFile = dateFormat.format(new Date()) + ".png";
             FileUtils.copyFile(scrFile, new File(destDir + "/" + destFile));

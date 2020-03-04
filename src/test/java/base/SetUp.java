@@ -1,27 +1,17 @@
 package base;
 
-import java.io.File;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.service.DriverService;
-import org.testng.Assert;
-import org.testng.reporters.Files;
-
-import base.Resources;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.deps.com.thoughtworks.xstream.io.path.Path;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
+
+import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 public class SetUp {
     Scenario scenario;
@@ -29,9 +19,9 @@ public class SetUp {
     @Before
     public void beforeScenario() {
         try {
+            System.out.println("BEFORE MOBILE");
             deviceCapabilities();
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             System.out.println(e.getMessage());
             Assert.fail();
         }
@@ -40,10 +30,10 @@ public class SetUp {
     @After
     public void afterScenario() {
         try {
+            System.out.println("AFTER MOBILE");
             detenerDriver();
             stopAppium();
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
@@ -53,7 +43,7 @@ public class SetUp {
     }
 
     AppiumDriverLocalService service;
-    private static AndroidDriver<MobileElement> driver;
+    private static AndroidDriver<MobileElement> mdriver;
     DesiredCapabilities capabilities;
 
     public void deviceCapabilities() throws Exception {
@@ -68,8 +58,8 @@ public class SetUp {
         try {
             setupAppiumService();
             startAppium();
-            driver = new AndroidDriver<MobileElement>(service.getUrl(), capabilities);
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            mdriver = new AndroidDriver<MobileElement>(service.getUrl(), capabilities);
+            mdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         } catch (Exception e) {
             throw new Exception("Error connecting to Appium service : " + e.getMessage());
         }
@@ -97,19 +87,19 @@ public class SetUp {
     }
 
     public void detenerDriver() {
-        driver.quit();
+        mdriver.quit();
     }
 
     public static AndroidDriver<MobileElement> getDriver() {
-        return driver;
+     return mdriver;
     }
 
     public void setDriver(AndroidDriver<MobileElement> driver) {
-        this.driver = driver;
+        this.mdriver = driver;
     }
 
     public void startActivity() {
-        driver = new AndroidDriver<MobileElement>(service.getUrl(), capabilities);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        mdriver = new AndroidDriver<MobileElement>(service.getUrl(), capabilities);
+        mdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 }

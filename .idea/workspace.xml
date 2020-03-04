@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f838541a-d0a3-4416-9f93-c340c672f12b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f838541a-d0a3-4416-9f93-c340c672f12b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - RunnerTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/WSetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/End2End.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/End2EndSincronizacion.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Sprint10_Escenarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Sprint11_Escenarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Sprint12_Escenarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Sprint9_Escenarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FincaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MuestreoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ReservorioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/WebStepsDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/ScreenShotsWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/TimeParameterValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/SetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/IngresoParametros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/IngresoParametros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PiscinaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PiscinaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ScreenShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ScreenShots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/LoginStepsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/AppStepsDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/SetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/SetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PiscinaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PiscinaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ScreenShots.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ScreenShots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/LoginStepsDef.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FavoritesManager">
     <favorites_list name="appparametrista" />
   </component>
@@ -29,30 +68,32 @@
     </option>
   </component>
   <component name="ProjectId" id="1TfEhrA8Q2XSPBOLsRdf5bg311i" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/features" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.RunnerTest">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -61,6 +102,24 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testintegration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: End2EndSincronizacion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/End2EndSincronizacion.feature" />
+      <option name="GLUE" value="stepdefs appiumservicebuilder base" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MobileShrimpsParametristaAlicorp" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: End2EndSincronizacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login de Parametrista correcto (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/IngresoParametros.feature" />
-      <option name="GLUE" value="stepdefs appiumservicebuilder base" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="MobileShrimpsParametristaAlicorp" />
-      <option name="NAME_FILTER" value="^Login de Parametrista correcto$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login de Parametrista correcto$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login de Parametrista correcto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileShrimpsParametristaAlicorp" />
       <extension name="coverage">
@@ -143,10 +183,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RunnerTest" />
-        <item itemvalue="Cucumber java.Feature: IngresoParametros" />
-        <item itemvalue="Cucumber java.Feature: Login" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Cucumber java.Scenario: Login de Parametrista correcto (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,10 +205,103 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="132" y="123" width="1688" height="977" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580767527135">
+      <screen x="32" y="23" width="1888" height="1177" />
+    </state>
+    <state x="132" y="123" width="1688" height="977" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580767527135" />
+    <state x="2563" y="399" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582552418768">
+      <screen x="1920" y="108" width="1920" height="1057" />
+    </state>
+    <state x="2563" y="399" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582552418768" />
+    <state x="664" y="347" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1579702546835" />
+    <state x="664" y="347" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581429919151" />
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom" timestamp="1582911439383">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1582911439383" />
+    <state width="1878" height="292" key="GridCell.Tab.0.bottom/0.23.1920.1177/-1888.98.1888.1057@0.23.1920.1177" timestamp="1580851942497" />
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom/0.23.1920.1177/1920.108.1920.1057@0.23.1920.1177" timestamp="1582903840663" />
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582842010941" />
+    <state width="1878" height="300" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1582883597798" />
+    <state width="1846" height="281" key="GridCell.Tab.0.bottom/32.23.1888.1177/1920.-157.1920.1057@1920.-157.1920.1057" timestamp="1580757924904" />
+    <state width="1846" height="229" key="GridCell.Tab.0.bottom/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580773602036" />
+    <state width="1846" height="446" key="GridCell.Tab.0.bottom/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581953973672" />
+    <state width="1845" height="272" key="GridCell.Tab.0.bottom/32.23.1888.1177@32.23.1888.1177" timestamp="1581690584528" />
+    <state width="1846" height="446" key="GridCell.Tab.0.bottom/34.23.1886.1177/1920.108.1920.1057@34.23.1886.1177" timestamp="1581976146185" />
+    <state width="1878" height="300" key="GridCell.Tab.0.center" timestamp="1582911439382">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="300" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1582911439382" />
+    <state width="1878" height="292" key="GridCell.Tab.0.center/0.23.1920.1177/-1888.98.1888.1057@0.23.1920.1177" timestamp="1580851942495" />
+    <state width="1878" height="300" key="GridCell.Tab.0.center/0.23.1920.1177/1920.108.1920.1057@0.23.1920.1177" timestamp="1582903840659" />
+    <state width="1878" height="264" key="GridCell.Tab.0.center/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582842010940" />
+    <state width="1878" height="300" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1582883597796" />
+    <state width="1846" height="281" key="GridCell.Tab.0.center/32.23.1888.1177/1920.-157.1920.1057@1920.-157.1920.1057" timestamp="1580757924903" />
+    <state width="1846" height="229" key="GridCell.Tab.0.center/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580773602036" />
+    <state width="1846" height="446" key="GridCell.Tab.0.center/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581953973670" />
+    <state width="1845" height="272" key="GridCell.Tab.0.center/32.23.1888.1177@32.23.1888.1177" timestamp="1581690584527" />
+    <state width="1846" height="446" key="GridCell.Tab.0.center/34.23.1886.1177/1920.108.1920.1057@34.23.1886.1177" timestamp="1581976146185" />
+    <state width="1878" height="300" key="GridCell.Tab.0.left" timestamp="1582911439381">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="300" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1582911439381" />
+    <state width="1878" height="292" key="GridCell.Tab.0.left/0.23.1920.1177/-1888.98.1888.1057@0.23.1920.1177" timestamp="1580851942492" />
+    <state width="1878" height="300" key="GridCell.Tab.0.left/0.23.1920.1177/1920.108.1920.1057@0.23.1920.1177" timestamp="1582903840657" />
+    <state width="1878" height="264" key="GridCell.Tab.0.left/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582842010939" />
+    <state width="1878" height="300" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1582883597796" />
+    <state width="1846" height="281" key="GridCell.Tab.0.left/32.23.1888.1177/1920.-157.1920.1057@1920.-157.1920.1057" timestamp="1580757924902" />
+    <state width="1846" height="229" key="GridCell.Tab.0.left/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580773602035" />
+    <state width="1846" height="446" key="GridCell.Tab.0.left/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581953973669" />
+    <state width="1845" height="272" key="GridCell.Tab.0.left/32.23.1888.1177@32.23.1888.1177" timestamp="1581690584527" />
+    <state width="1846" height="446" key="GridCell.Tab.0.left/34.23.1886.1177/1920.108.1920.1057@34.23.1886.1177" timestamp="1581976146184" />
+    <state width="1878" height="300" key="GridCell.Tab.0.right" timestamp="1582911439382">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="300" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1582911439382" />
+    <state width="1878" height="292" key="GridCell.Tab.0.right/0.23.1920.1177/-1888.98.1888.1057@0.23.1920.1177" timestamp="1580851942496" />
+    <state width="1878" height="300" key="GridCell.Tab.0.right/0.23.1920.1177/1920.108.1920.1057@0.23.1920.1177" timestamp="1582903840661" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582842010940" />
+    <state width="1878" height="300" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1582883597797" />
+    <state width="1846" height="281" key="GridCell.Tab.0.right/32.23.1888.1177/1920.-157.1920.1057@1920.-157.1920.1057" timestamp="1580757924904" />
+    <state width="1846" height="229" key="GridCell.Tab.0.right/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580773602036" />
+    <state width="1846" height="446" key="GridCell.Tab.0.right/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581953973671" />
+    <state width="1845" height="272" key="GridCell.Tab.0.right/32.23.1888.1177@32.23.1888.1177" timestamp="1581690584528" />
+    <state width="1846" height="446" key="GridCell.Tab.0.right/34.23.1886.1177/1920.108.1920.1057@34.23.1886.1177" timestamp="1581976146185" />
+    <state width="1846" height="272" key="GridCell.Tab.1.bottom" timestamp="1581693289572">
+      <screen x="32" y="23" width="1888" height="1177" />
+    </state>
+    <state width="1846" height="272" key="GridCell.Tab.1.bottom/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581693289572" />
+    <state width="1846" height="272" key="GridCell.Tab.1.center" timestamp="1581693289568">
+      <screen x="32" y="23" width="1888" height="1177" />
+    </state>
+    <state width="1846" height="272" key="GridCell.Tab.1.center/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581693289568" />
+    <state width="1846" height="272" key="GridCell.Tab.1.left" timestamp="1581693289567">
+      <screen x="32" y="23" width="1888" height="1177" />
+    </state>
+    <state width="1846" height="272" key="GridCell.Tab.1.left/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581693289567" />
+    <state width="1846" height="272" key="GridCell.Tab.1.right" timestamp="1581693289570">
+      <screen x="32" y="23" width="1888" height="1177" />
+    </state>
+    <state width="1846" height="272" key="GridCell.Tab.1.right/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581693289570" />
+    <state x="452" y="294" key="SettingsEditor" timestamp="1583115991587">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2372" y="351" key="SettingsEditor/0.23.1920.1177/1920.108.1920.1057@1920.108.1920.1057" timestamp="1582840598383" />
+    <state x="452" y="294" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1583115991587" />
+    <state x="2373" y="47" key="SettingsEditor/32.23.1888.1177/1920.-157.1920.1057@1920.-157.1920.1057" timestamp="1580327752450" />
+    <state x="477" y="250" key="SettingsEditor/32.23.1888.1177/1920.-157.1920.1057@32.23.1888.1177" timestamp="1580134101452" />
+    <state x="477" y="250" key="SettingsEditor/32.23.1888.1177/1920.108.1920.1057@32.23.1888.1177" timestamp="1581436242014" />
   </component>
 </project>
