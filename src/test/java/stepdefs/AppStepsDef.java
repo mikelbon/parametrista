@@ -218,6 +218,21 @@ String evento="";
             Assert.fail();
         }
     }
+    @When("^JefeTecnico selecciona la primera piscina que indique No se ha realizado ningun muestreo$")
+    public void jefetecnico_selecciona_la_primera_piscina_que_indique_No_se_ha_realizado_ningun_muestreo() throws Throwable {
+        ScreenShots screen = new ScreenShots();
+        MuestreoPage muestreo = new MuestreoPage(SetUp.getDriver());
+        try {
+            muestreo.clickPiscinaSinMuestreoprevio();
+            screen.capturar_pantalla();
+        } catch (Exception e) {
+            screen.capturar_pantalla();
+            System.out.println(e.getMessage());
+            System.out.println("No se encontró piscina con esa condicion");
+
+            Assert.fail();
+        }
+    }
 
     @When("^JefeTecnico presiona el boton Agregar Muestreo Biometrico$")
     public void jefetecnico_presiona_el_boton_Agregar_Muestreo_Biometrico() throws Throwable {
@@ -254,7 +269,7 @@ String evento="";
         ScreenShots screen = new ScreenShots();
         MuestreoPage muestreo = new MuestreoPage(SetUp.getDriver());
         try {
-            muestreo.clickBtnAddNewSample();
+            muestreo.clickAgregarMuestra();
             screen.capturar_pantalla();
         } catch (Exception e) {
             screen.capturar_pantalla();
@@ -413,6 +428,23 @@ String evento="";
             muestreo.dialogEventos();
             muestreo.getEvento(evento);
             muestreo.cerrarDialogo();
+            screen.capturar_pantalla();
+        } catch (Exception e) {
+            screen.capturar_pantalla();
+            System.out.println(e.getMessage());
+            System.out.println("No se encontró el icono de Muestreo");
+            Assert.fail();
+        }
+    }
+
+    @When("^JefeTecnico regresa al listado de piscinas$")
+    public void jefetecnico_regresa_al_listado_de_piscinas() throws Throwable {
+        ScreenShots screen = new ScreenShots();
+        MuestreoPage muestreo = new MuestreoPage(SetUp.getDriver());
+        PiscinaPage piscina = new PiscinaPage(SetUp.getDriver());
+        try {
+            piscina.clickBtnVolverDesdePiscinas();
+            muestreo.lblMuestreoBiometricoFormPiscina();
             screen.capturar_pantalla();
         } catch (Exception e) {
             screen.capturar_pantalla();

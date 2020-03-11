@@ -1,0 +1,707 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# 1. Flujo integral Muestreo del Jefe Tecnico para piscina sin ningun muestreo previo"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 205255,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppStepsDef.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17599046160,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login de Usuario Jefe Tecnico",
+        "description": "",
+        "id": "pruebas-funcionales-jefe-tecnico---sprint-12;login-de-usuario-jefe-tecnico",
+        "after": [
+          {
+            "result": {
+              "duration": 2685232645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3083889378,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Parametrista ingresa a formulario Login y selecciona campo Usuario",
+            "match": {
+              "location": "AppStepsDef.parametrista_ingresa_a_formulario_Login_y_selecciona_campo_Usuario()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1408509304,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Parametrista ingresa su correo \"demo18@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo18@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "AppStepsDef.parametrista_ingresa_su_correo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168375750,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Parametrista selecciona campo Contraseña",
+            "match": {
+              "location": "AppStepsDef.parametrista_selecciona_campo_Contraseña()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3186635677,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Parametrista ingresa su clave \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 31
+                }
+              ],
+              "location": "AppStepsDef.parametrista_ingresa_su_clave(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184791410,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Parametrista selecciona botón Ingresar",
+            "match": {
+              "location": "AppStepsDef.parametrista_selecciona_botón_Ingresar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5651998995,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Parametrista visualiza el Home de bienvenida",
+            "match": {
+              "location": "AppStepsDef.parametrista_visualiza_el_Home_de_bienvenida()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 735194521,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "JefeTecnico selecciona la opcion Muestreo",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_selecciona_la_opcion_Muestreo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4767961094,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "JefeTecnico visualiza el listado de fincas",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_el_listado_de_fincas()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 861914990,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "JefeTecnico selecciona la finca \"Langostino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Langostino",
+                  "offset": 33
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_selecciona_la_finca(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1526087243,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "JefeTecnico visualiza la lista de piscinas",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_lista_de_piscinas()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5464752568,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "JefeTecnico selecciona la primera piscina que indique No se ha realizado ningun muestreo",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_selecciona_la_primera_piscina_que_indique_No_se_ha_realizado_ningun_muestreo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 686759621,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "JefeTecnico visualiza la pantalla de muestreo biometrico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_pantalla_de_muestreo_biometrico()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 789881310,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "JefeTecnico presiona el boton Agregar Muestreo Biometrico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_el_boton_Agregar_Muestreo_Biometrico()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728670832,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "JefeTecnico visualiza el formulario de nuevo muestreo biometrico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_el_formulario_de_nuevo_muestreo_biometrico()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 681848312,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "JefeTecnico presiona boton Agregar Muestra",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_boton_Agregar_Muestra()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678135364,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "JefeTecnico visualiza la calculadora",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_calculadora()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4157270179,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "JefeTecnico ingresa el valor \"30\" para el \"PesoTotal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 30
+                },
+                {
+                  "val": "PesoTotal",
+                  "offset": 43
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3353073338,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "JefeTecnico ingresa el valor \"2\" para el \"CantidadDeCamarones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                },
+                {
+                  "val": "CantidadDeCamarones",
+                  "offset": 42
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1283209665,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "JefeTecnico visualiza una tarjeta con los datos agregados",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_una_tarjeta_con_los_datos_agregados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 750971794,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "JefeTecnico presiona el boton Ingresar Evento Patologico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_el_boton_Ingresar_Evento_Patologico()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 778596765,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "JefeTecnico visualiza el listado de Eventos Patologicos",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_el_listado_de_Eventos_Patologicos()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 865730020,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "JefeTecnico selecciona el evento \"Camaron Picado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camaron Picado",
+                  "offset": 34
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_selecciona_el_evento(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583914848,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "JefeTecnico visualiza el evento agregado \"Camaron Picado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camaron Picado",
+                  "offset": 42
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_visualiza_el_evento_agregado(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 724326313,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "JefeTecnico presiona boton Agregar Muestra",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_boton_Agregar_Muestra()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 652827448,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "JefeTecnico visualiza la calculadora",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_calculadora()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4443113244,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "JefeTecnico ingresa el valor \"500\" para el \"PesoTotal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 30
+                },
+                {
+                  "val": "PesoTotal",
+                  "offset": 44
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3854133105,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "JefeTecnico ingresa el valor \"20\" para el \"CantidadDeCamarones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 30
+                },
+                {
+                  "val": "CantidadDeCamarones",
+                  "offset": 43
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1340444371,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "JefeTecnico visualiza una tarjeta con los datos agregados",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_una_tarjeta_con_los_datos_agregados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 764136092,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "JefeTecnico presiona el boton Ingresar Evento Patologico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_el_boton_Ingresar_Evento_Patologico()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 754257485,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "JefeTecnico visualiza el listado de Eventos Patologicos",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_el_listado_de_Eventos_Patologicos()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 751928209,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "JefeTecnico selecciona el evento \"Branquias sucias\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Branquias sucias",
+                  "offset": 34
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_selecciona_el_evento(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544021000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "JefeTecnico visualiza el evento agregado \"Branquias sucias\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Branquias sucias",
+                  "offset": 42
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_visualiza_el_evento_agregado(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 716102354,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "JefeTecnico presiona boton Agregar Muestra",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_boton_Agregar_Muestra()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645444254,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "JefeTecnico visualiza la calculadora",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_calculadora()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4699150414,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "JefeTecnico ingresa el valor \"700\" para el \"PesoTotal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "700",
+                  "offset": 30
+                },
+                {
+                  "val": "PesoTotal",
+                  "offset": 44
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4693157905,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "JefeTecnico ingresa el valor \"26\" para el \"CantidadDeCamarones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 30
+                },
+                {
+                  "val": "CantidadDeCamarones",
+                  "offset": 43
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_ingresa_el_valor_para_el(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1309445980,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "JefeTecnico visualiza una tarjeta con los datos agregados",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_una_tarjeta_con_los_datos_agregados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 781832242,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "JefeTecnico presiona el boton Ingresar Evento Patologico",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_el_boton_Ingresar_Evento_Patologico()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 770780007,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "JefeTecnico visualiza el listado de Eventos Patologicos",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_el_listado_de_Eventos_Patologicos()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 837474311,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "JefeTecnico selecciona el evento \"Muertos Rojos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Muertos Rojos",
+                  "offset": 34
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_selecciona_el_evento(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584044861,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "JefeTecnico visualiza el evento agregado \"Muertos Rojos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Muertos Rojos",
+                  "offset": 42
+                }
+              ],
+              "location": "AppStepsDef.jefetecnico_visualiza_el_evento_agregado(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 939958755,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "JefeTecnico presiona el boton Finalizar muestreo",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_presiona_el_boton_Finalizar_muestreo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23415338029,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "JefeTecnico visualiza la pantalla de muestreo biometrico con el ultimo muestreo agregado",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_visualiza_la_pantalla_de_muestreo_biometrico_con_el_ultimo_muestreo_agregado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180656106,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "JefeTecnico regresa al listado de piscinas",
+            "match": {
+              "location": "AppStepsDef.jefetecnico_regresa_al_listado_de_piscinas()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Pruebas Funcionales Jefe Tecnico - Sprint 12",
+    "description": "",
+    "id": "pruebas-funcionales-jefe-tecnico---sprint-12",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Sprint12_Escenarios.feature"
+  }
+]

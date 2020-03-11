@@ -144,6 +144,14 @@ public class MuestreoPage extends BasePage {
         return this;
     }
 
+    // etiqueta No se ha realizado ningun muestreo
+    // Botones Numericos de Calculadora
+    public MuestreoPage clickPiscinaSinMuestreoprevio() {
+        AndroidElement element = (AndroidElement) driver.findElementByXPath("//android.widget.TextView[(@text='No se ha realizado ningún muestreo')]");
+        element.click();
+        return this;
+    }
+
     @AndroidFindBy(id = "com.alicorp.android.nicosoft."+ Properties.AMBIENTE_OBJETO +":id/btnAddNewSampling")
     public AndroidElement idBtnAddNewSampling;
 
@@ -170,6 +178,13 @@ public class MuestreoPage extends BasePage {
         click(idBtnAddNewSample);
         return this;
     }
+
+    public MuestreoPage clickAgregarMuestra() {
+        AndroidElement element = (AndroidElement) driver.findElementByXPath("//android.widget.TextView[(@text='Agregar Muestra')]");
+        element.click();
+        return this;
+    }
+
 
     @AndroidFindBy(id = "com.alicorp.android.nicosoft."+ Properties.AMBIENTE_OBJETO +":id/tvParameterName")
     public AndroidElement idParameterName;
